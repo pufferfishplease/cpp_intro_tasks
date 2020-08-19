@@ -4,28 +4,14 @@ using namespace std;
 
 int main()
 {
-	//change pointer value
-	int m = 29;
 
-	cout << "&m = " << &m << "\tm=" << m << endl;
+	int* a = new int{ 5 };
+	int* b = new int{ 6 };
+	cout << "add value = " << *a + *b << endl;
+	cout << "a++ " << a++ << "add value = " << *a + *b << endl;
 
-	int* ab = &m;
-
-	cout << "&m = " << &m << "\tm=" << m << endl;
-
-	*ab = 34;
-	
-	cout << "&m = " << &m << "\tm=" << m << endl;
-
-	*ab = 7;
-
-	cout << "&m = " << &m << "\tm=" << m << endl;
-
-	// &m = 0x???
-	// ab = &m
-	// m  = 29
-	// *ab = 7
-	cout << "&m = " << &m << "\tab=" << ab << "\tm=" << m << "\t*ab=" << *ab << endl;
-
+	//If you forget this, you'll have the memory leak issue!!
+	delete a;
+	delete b;
 
 }
