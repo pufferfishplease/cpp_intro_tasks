@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polygon_area", "polygon_are
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointers", "pointers\pointers.vcxproj", "{D0D7E5F3-C67D-4E66-971B-7AE0A42C3E07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "donut", "donut\donut.vcxproj", "{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{D0D7E5F3-C67D-4E66-971B-7AE0A42C3E07}.Release|x64.Build.0 = Release|x64
 		{D0D7E5F3-C67D-4E66-971B-7AE0A42C3E07}.Release|x86.ActiveCfg = Release|Win32
 		{D0D7E5F3-C67D-4E66-971B-7AE0A42C3E07}.Release|x86.Build.0 = Release|Win32
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Debug|x64.ActiveCfg = Debug|x64
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Debug|x64.Build.0 = Debug|x64
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Debug|x86.ActiveCfg = Debug|Win32
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Debug|x86.Build.0 = Debug|Win32
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Release|x64.ActiveCfg = Release|x64
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Release|x64.Build.0 = Release|x64
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Release|x86.ActiveCfg = Release|Win32
+		{7724A81C-1E29-4F22-BDCF-AA65F5B5D759}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
