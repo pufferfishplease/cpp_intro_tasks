@@ -2,16 +2,31 @@
 
 using namespace std;
 
+long addTwoNumbers(long*, long*);
+
 int main()
 {
+	long fno, sno, sum;
 
-	int* a = new int{ 5 };
-	int* b = new int{ 6 };
-	cout << "add value = " << *a + *b << endl;
-	cout << "a++ " << a++ << "add value = " << *a + *b << endl;
+	printf("\n\n Pointer : Add two numbers using call by reference:\n");
+	printf("-------------------------------------------------------\n");
 
-	//If you forget this, you'll have the memory leak issue!!
-	delete a;
-	delete b;
+	printf(" Input the first number : ");
+	cin >> fno;
 
+	printf(" Input the second  number : ");
+	cin >> sno;
+
+	sum = addTwoNumbers(&fno, &sno);
+
+	printf(" The sum of %ld and %ld  is %ld\n\n", fno, sno, sum);
+
+	return 0;
+}
+
+long addTwoNumbers(long* n1, long* n2)
+{
+	long sum;
+	sum = *n1 + *n2;
+	return sum;
 }
